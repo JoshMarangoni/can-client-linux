@@ -1,5 +1,4 @@
 #include <stdio.h>      // Used for printf() function to display output
-#include <stdlib.h>     // Used for exit() function for terminating the program
 #include <string.h>     // Used for strcpy() to copy strings (e.g., interface name)
 #include <unistd.h>     // Used for read() and close() functions for socket operations
 #include <net/if.h>     // Used for struct ifreq to configure network interfaces
