@@ -2,7 +2,6 @@
 #include <string.h>     // Used for strcpy() to copy strings (e.g., interface name)
 #include <unistd.h>     // Used for read() and close() functions for socket operations
 #include <net/if.h>     // Used for struct ifreq to configure network interfaces
-#include <sys/types.h>  // Required for data types like `ssize_t` and `socket_t`
 #include <sys/socket.h> // Used for socket(), bind(), and other socket-related functions
 #include <sys/ioctl.h>  // Used for ioctl() to control the network device (e.g., to set CAN mode)
 #include <linux/can.h>  // Defines CAN-specific structures and constants (e.g., struct can_frame)
